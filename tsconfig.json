@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es2021",
+        "baseUrl": "./src",
+        "importHelpers": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "lib": ["es2021"],
+        "moduleResolution": "node"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "**/*.js", "**/*.spec.ts", "**/*.spec.tsx"]
+}
